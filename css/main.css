@@ -80,6 +80,8 @@ layout:
 
 /* to apply the multipy effect on the img  */
 .body .img {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
     background-color: var(--soft-violet);
 }
 
