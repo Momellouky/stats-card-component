@@ -5,29 +5,51 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <!-- main css style -->
+
+  <link rel="stylesheet" href="css/main.css">
   
   <title>Frontend Mentor | Stats preview card component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    /* .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); } */
   </style>
 </head>
 <body>
+  <div class="main flex">
+    <div class="body flex">
+      <div class="img">
+        <img src="images/image-header-desktop.jpg" alt="header-img">
+      </div>
+      <div class="content flex">
+        <h1>  Get <span>insights</span> that help your business grow.</h1>
+        <p>  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+          experience, and overall efficiency.</p>
+        <div class="main-b-info flex">
+          <div class="b-info">
+            <h2>10k+</h2> 
+            <p>companies</p>
+          </div>
+          <div class="b-info">
+            <h2>314</h2> 
+            <p>templates</p>
+          </div>
+          <div class="b-info">
+            <h2>12m+</h2> 
+            <p>queries</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-  Get insights that help your business grow.
-
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
-
-  10k+ companies
-  314 templates
-  12m+ queries
-
-  <div class="attribution">
+  <!-- ----------------------------------- copyright ----------------------------------- -->
+  <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
-  </div>
+  </div> -->
 </body>
 </html>
